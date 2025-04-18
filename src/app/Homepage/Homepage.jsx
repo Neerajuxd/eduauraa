@@ -12,9 +12,9 @@ import Footer from "../../components/Footer/Footer";
 const Homepage = () => {
   return (
     <div className='bg-[#f5f5f5]'>
-      {/* <HomeHeroSection /> */}
+      <HomeHeroSection />
       <Banner />
-      {/* <Statistics />
+      <Statistics />
       <CoachingInstitutes />
       <Container>
       <OfferCards />
@@ -26,8 +26,8 @@ const Homepage = () => {
       </Container>
       <Container>
       <SubscribeBanner />
-      </Container> */}
-      {/* <Footer /> */}
+      </Container> 
+      <Footer />
     </div>
   )
 }
